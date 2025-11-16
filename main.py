@@ -6,14 +6,15 @@ def main():
     users = [
         "loukoumadness",
         "lacost",
-        "ioulios",
+        "iouliosp",
         "geezer_jeezer"
     ]
     # get_all_watchlists(users=users)
 
    # Get movies by rating and user
     username = "nikosfilmakias"
-    min_rating = 3.5
+    username = "iouliosp"
+    min_rating = 4
     get_by_rating_and_user(username=username, min_rating=min_rating, output_directory="outputs/")
 
 if __name__ == "__main__":
